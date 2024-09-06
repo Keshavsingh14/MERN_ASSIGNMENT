@@ -1,4 +1,3 @@
-// frontend/src/components/ScheduleSessionForm.jsx
 import { useState } from 'react';
 import axios from 'axios';
 

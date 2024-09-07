@@ -9,7 +9,7 @@ function AvailabilityForm({ user }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('https://backend-qm1n.onrender.com/api/availability', {
+      await axios.post('https://localhost:5000/api/availability', {
         user,
         start,
         end,

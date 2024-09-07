@@ -8,7 +8,7 @@ function ScheduleSessionForm({ availability }) {
     if (!selectedSlot) return;
 
     try {
-      const response = await axios.post('https://backend-qm1n.onrender.com/api/sessions', {
+      const response = await axios.post('https://localhost:5000/api/sessions', {
         user: selectedSlot.user,
         start: selectedSlot.start,
         end: selectedSlot.end,
